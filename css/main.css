@@ -1,95 +1,169 @@
-header {
-	padding: 15px 0;
-	margin: 0;
-	color: #fff;
-	background: white;
-	width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 }
 
-.logo {
-	width: 60%;
-	margin-left: 60%;
+header{
+    width: 100%;
+    color:#808080;
+    background:white;
+    z-index: 100;
+    height: 90px;
+    }
+ul li {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+a{
+    color:#808080;
+    font-family: arial;
+}
+.logo{
+    height: 20%;
+    width: 30%;
+    margin-top: 5%;
+}
+.inicio{
+    margin-top: 9%;
+}
+.cajaprincipal{
+     background-color:#808080;
+     height: 430px;
+     width: 100%;
+}
+.caja{
+    margin-top: 60px;
+}
+.encabezado{
+    color: white;
+    font-family:"Open Sans";
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.parrafo{
+    color: white;
+    font-family:"Open Sans";
+    font-size: 13px;
+    margin-left: 20px;
+    text-align: justify;
 }
 
-nav ul {
-	list-style-type: none;
-	padding-top: 30px;
-	padding-right: 8%;
-	margin: 0 0 0 0;
-	float: right;
-	font-size: 13px;
-	text-transform: uppercase;
-	white-space: nowrap;
+.caja1{
+    margin-top: 65px;
 }
-
-nav li {
-	position: relative;
-	left: -80%;
-	float: right;
-	margin: 0;
-	padding: 0% 0% 3% 0%;
+.opacity{
+    background:rgba(188, 188, 188, 0.32);
+    padding: 25px;
+    width: 290px;
+    margin-left: 90px;
+    border-radius: 15px;
 }
-
-nav li:hover a{
-	color: red;
+form{
+    position: relative;
+    right: 8px;
 }
-
-nav a{
-	text-decoration: none;
-	padding: 0 25px 40px 15px;
-	color: #808080;
-}
-
-nav a:hover {
-	color: #fff;
-}
-.cajaprincipal {
-	background-color: #808080;
-	}
-.encabezado {
-	padding: 1% 0 0 13%;
-}
-.beautiful {
-	color: white;
-	padding: 7% 8% 2% 40%;
-	font-family: arial;
-}
-.parrafo {
-	color: white;
-	padding: 5% 1% 9% 40%;
-	font-family: arial;
-	font-size: 12px;
-}
-.formulario {
-	width: 200px;
-	padding: 3%;
-	margin-left: 15%;
-	margin-top: 10%;
-	background: rgba(255,255,255,0.2 );
+.start{
+    color: white;
+    font-family:"Open Sans";
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 input {
-	width: 100%;
-	padding: 2%;
-	margin: 1%;
+    width: 250px;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px rgba(149, 149, 149, 0.25) solid;
 }
-.celeste {
-	background-color: #3EB0F7;
-	color: white;
+.suscribir{
+    background-color:#3EB0F7;
+    color: white;
+    font-size: 15px;
 }
-.formulario {
-	border-radius: 10px;
+.parrafo2{
+    margin-left:30px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #808080;
+    margin-top: 1%;
 }
-.text-left {
-	color: white;
-	text-align: center;
-	font-size: 17px;
+.blue{
+    color: blue;
 }
 footer{
+    width: 100%;
+    background:white;
+    z-index: 100;
+    height: 50px;
+    }
+@media  screen and (min-width:500px) and (max-width: 824px) {
+    .inicio{
+        width: 230px;
+        position: relative;
+        left: -100px;
+        margin-top: 25px;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 70%;
+    }
+    .col-4 {
+        width: 30%;
+    }
+    .logo {
+        width: 15%;
+        height: 10%;
+        margin-bottom: 2%;
+    }
+    ul li {
+    margin: 10px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .parrafo{
+        font-size: 17px;
+        text-align: left;
+    }
+    .logo{
+        height: 70%;
+        width: 70%;
+    }
+    .container{
+        width:100% ;
+    }
+    .cajaprincipal{
+        height:700px;
+        width: 100%;
+    }
+    .caja{
+        margin-top: 5px;
+    }
+    .caja,.caja1,input{
+        width: 100%;
+    }
+    .opacity{
+        width: 100%;
+        position: relative;
+        right: 80px;
+        margin-bottom: 5%;
+    }
+    footer{
         width: 100%;
         height: 70px;
     }
-    .parrafo1{
+    .all{
         font-size: 18px;
         margin-top: 20px;
-        padding-left: 20%;
     }
+
+
+ 
+}
